@@ -1,8 +1,9 @@
-c# Federate Learning 攻防复现篇
+Paper title "Blockchain-based Federated Learning with Byzantine Resilience for Secure IIOT"
+c# code and experimental data
 
-更新日期截止2020年5月22日，项目定期维护和更新，维护各种SOTA的Federated Learning的攻防模型。(更新中。。）
+Updated by July 22, 2022, the project is regularly maintained and updated to maintain various SOTA Federated Learning attacks and defense models (under update)
 
-## 论文 (Defend)
+## References for Byzantien Tolerance algorithms (Defend methods) adopted in this paper:
 
 
 1. (**Krum**): Machine Learning with Adversaries:
@@ -12,14 +13,18 @@ Towards optimal statistical rates. In Proceedings of the International Conferenc
 3. (**bulyan**): E. M. El Mhamdi, R. Guerraoui, and S. Rouault. The hidden vulnerability of distributed learning in Byzantium. In Proceedings of the 35th International Conference on Machine Learning (ICML), pages 3521–3530, 2018.
 
  -------
-## 论文 (Attack)
+## References for Attacks used in this paper:
 
-4. A Little Is Enough: Circumventing Defenses For Distributed Learning【NIPS 2019】
+4. Non-omniscient Attack: A Little Is Enough: Circumventing Defenses For Distributed Learning【NIPS 2019】
+5. LabelFlip Attack: “Adversarial Machine Learning,” in Proc. Acm Workshop on Security & Artificial Intelligence, 2011, pp. 4–6.
+6. Krum Attack: Machine learning with adversaries: Byzantine tolerant gradient descent,” in Neural Information Processing Systems, Red Hook, NY, USA, 2017, p.118–128
+7. Bulyan Attack: Byzantine-robust distributed learning: Towards optimal statistical rates,” in Proceedings of the 35th International Conference on Machine Learning, ICML 2018, Stockholmsm ̈assan, Stockholm, Sweden, July 10-15, 2018.
 
 
 
 
-代码运行
+
+Run Code
 ```
 mkdir logs
 python main.py
