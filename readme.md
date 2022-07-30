@@ -1,4 +1,4 @@
-Paper title "Blockchain-based Federated Learning with Byzantine Resilience for Secure IIOT"
+## Paper title "Blockchain-based Federated Learning with Byzantine Resilience for Secure IIOT"
 c# code and experimental data
 
 Updated by July 22, 2022, the project is regularly maintained and updated to maintain various SOTA Federated Learning attacks and defense models (under update)
